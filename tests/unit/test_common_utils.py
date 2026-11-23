@@ -25,9 +25,7 @@ def test_environment_snapshot_has_required_fields() -> None:
 
 
 def _report(**overrides: object) -> HardwareReport:
-    fields: dict[str, object] = dict(
-        cpu_physical_cores=4, cpu_logical_cores=8, ram_total_gb=8.0, cuda_available=False
-    )
+    fields: dict[str, object] = dict(cpu_physical_cores=4, cpu_logical_cores=8, ram_total_gb=8.0, cuda_available=False)
     fields.update(overrides)
     return HardwareReport(**fields)  # type: ignore[arg-type]
 

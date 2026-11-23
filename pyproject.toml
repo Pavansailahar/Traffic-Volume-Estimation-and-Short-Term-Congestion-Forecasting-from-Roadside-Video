@@ -9,7 +9,7 @@ dependencies = [
     "torch>=2.4",
     "torchvision>=0.19",
     "ultralytics>=8.3",        # AGPL-3.0 — see RISK_REGISTER R-09
-    "supervision>=0.25",       # ByteTrack, line/zone utilities (MIT)
+    "lap>=0.5.12",             # linear assignment for Ultralytics ByteTrack (BSD-2)
     "opencv-python-headless>=4.10",
     # Data / ML
     "numpy>=1.26",
@@ -65,8 +65,11 @@ markers = [
 ]
 
 [tool.ruff]
-line-length = 110
+line-length = 120
 target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["E501"]  # long literal fixtures (XML)

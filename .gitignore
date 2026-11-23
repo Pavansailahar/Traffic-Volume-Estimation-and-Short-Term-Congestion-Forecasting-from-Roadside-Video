@@ -38,3 +38,7 @@ logs/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# User-supplied sample videos (unknown licence, large): keep local
+tests/Video/
+.claude/

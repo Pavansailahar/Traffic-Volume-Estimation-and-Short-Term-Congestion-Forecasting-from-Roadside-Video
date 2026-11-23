@@ -52,9 +52,7 @@ def test_config_hash_is_stable_and_sensitive() -> None:
 
 
 def test_o2_variants_have_distinct_hashes() -> None:
-    assert (
-        load_config(CONFIGS / "o2_a.yaml").config_hash() != load_config(CONFIGS / "o2_b.yaml").config_hash()
-    )
+    assert load_config(CONFIGS / "o2_a.yaml").config_hash() != load_config(CONFIGS / "o2_b.yaml").config_hash()
 
 
 def test_deep_merge_does_not_mutate_inputs() -> None:

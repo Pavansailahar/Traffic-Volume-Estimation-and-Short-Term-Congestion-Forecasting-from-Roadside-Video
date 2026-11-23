@@ -3,8 +3,9 @@
 KL University two-semester engineering capstone. Specification (single source of truth):
 [docs/UseCase.pdf](docs/UseCase.pdf).
 
-> **Status (2026-11-23): Phase 4 of 15 — environment and project skeleton.** No detection, counting or
-> forecasting functionality exists yet. No performance numbers have been produced. See
+> **Status (2026-11-23): Phase 5 of 15.** A working O2-A vertical slice (ingestion → YOLO11n detection →
+> ByteTrack → line counting → volume baselines → Streamlit dashboard) runs on real Barbados video. Counts are
+> **estimates not yet validated against reference counts**; no KPI has been measured. See
 > [DEVELOPMENT_ROADMAP.md](DEVELOPMENT_ROADMAP.md).
 
 ## What this project builds
@@ -59,6 +60,18 @@ Environment report:
 Using pip instead of uv: `requirements.txt` is exported from `uv.lock`. The torch wheels come from the CPU index:
 `pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu`.
 
+Process a video end to end (detect → track → count), e.g. a 23-minute Barbados window from camera 1:
+
+```powershell
+& "$HOME\dsci41env\Scripts\python.exe" scripts\process_video.py --glob "normanniles1_2025-10-21-13-*.mp4" --camera normanniles1 --name cam1_morning
+```
+
+Open the operator dashboard (http://localhost:8501):
+
+```powershell
+& "$HOME\dsci41env\Scripts\python.exe" -m streamlit run dashboardpp.py
+```
+
 Docker (clean-environment test run, CPU):
 
 ```powershell
@@ -76,10 +89,10 @@ docker compose run --rm tests
 
 ```
 src/common/        shared types, config, provenance, hardware, logging     (implemented)
-src/<module>/      ingestion, detection, classification, tracking, counting,
-                   perspective, enhancement, forecasting, monitoring,
-                   evaluation, datasets, api                                (skeleton only)
-dashboard/         Streamlit app                                            (Phase 12)
+src/ingestion, detection, tracking, counting, monitoring, forecasting (baselines),
+    pipeline, services, datasets, evaluation                               (implemented, O2-A slice)
+src/perspective, enhancement, classification, api                          (skeleton only)
+dashboard/         Streamlit app, 8 pages                                    (reads pipeline runs)
 configs/           validated YAML experiment configs
 scripts/           setup_env.ps1, check_env.py
 tests/             unit / integration / acceptance / negative

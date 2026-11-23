@@ -10,7 +10,7 @@ Status: **v0.1 — awaiting dataset-selection approval.**
 
 | Dataset | View | Video? | Detection boxes | Track IDs | **Vehicle count GT** | **Congestion labels** | Weather / light labels | Calibration | Long continuous time series |
 |---------|------|--------|-----------------|-----------|----------------------|-----------------------|------------------------|-------------|----------------------------|
-| Zindi Barbados Traffic Analysis | Fixed roadside, 4 cameras at one roundabout | Yes (~1-min segments, timestamped) | No | No | **No** | **Yes** — 4-class enter/exit rating per segment | No (variation exists but unlabelled) | No | **Yes** |
+| Zindi Barbados Traffic Analysis | Fixed roadside, 4 cameras at one roundabout | Yes (~1-min segments, timestamped) | No | No | **No** | **Yes** — 4-class enter/exit rating per segment | No labels, but **night (02:00–05:50 local) is present** — see §2.1 update | No | **Yes** |
 | AI City 2020 Track 1 | Fixed, 20 cameras | Yes | No | No | Yes (per movement, per class) | No | No (dawn/rain/snow present, unlabelled) | No | No (31 clips, ~9 h) |
 | AI City 2021 Track 1 (accessible successor) | Same description as 2020 | Yes | No | No | Yes; **public GT completeness unverified** | No | No | No | No |
 | UA-DETRAC | Fixed elevated roadside, 24 sites | Frame sequences, 25 fps | **Yes** (~1.21 M) | **Yes** | Derivable from track IDs (not native) | No | **Yes** (per-sequence: cloudy, night, sunny, rainy) + occlusion/truncation attrs | No | No (short sequences) |
@@ -34,6 +34,15 @@ human counting.
 - **Size:** originals ≈ 620 GB in total; re-encoded ≈ 126 GB; compressed ≈ 140 GB (Kaggle mirror sizes). Hosted on Google Drive and GCS (`brb-traffic`, `brb-traffic-full`); public listing of the GCS bucket was reported by a participant (**untested**).
 - **Licence:** **CC BY-SA 4.0** (data page and rules). Kaggle mirrors relabel it CC BY / CC0; ignore that and follow CC BY-SA 4.0. The competition rule *"Back-propagation is not allowed in training or inference"* applied to competition entries, not to this project; we will note it anyway.
 - **Role for us:** primary operational domain and **real congestion labels for O4 forecasting**. Its count reference has to be created by us (see §4).
+
+> **Update after first download (2026-11-23, Phase 5) — supersedes earlier statements:**
+> - **Clips:** 4,633 per camera folder plus 184 in `added`. They are H.264, 960×540, 20 fps, about 59.9 s and about 4.4 MB each.
+> - **Time base:** the times in the file names run 06:00–17:59 from 20 to 26 Oct 2025. The camera's burned-in clock overlay reads **4 hours earlier**: 06:00:45 shows as 02:00:54, and 13:13:45 shows as 09:13:44. That fits file names in UTC and local Barbados time AST = UTC−4.
+> - **Night coverage:** local coverage is therefore **02:00–13:59**, so the dataset **does contain night footage** (02:00 to about 05:50, lit by street lamps) as well as morning-peak and midday traffic. My earlier "no night" reading was wrong.
+> - **Licence conflict:** every frame carries the burned-in notice **"(c) IWCP Inc. Re-Use/Re-Streaming Forbidden"**, which conflicts with the CC BY-SA 4.0 statement on Zindi. Until this is clarified, we only analyse the video locally. We never redistribute it, publish clips, or put frames in the repository. Any frames shown in reports or the demo need permission first (RISK R-20).
+> - **Official mirror cost:** the official GCS bucket `brb-traffic` is *requester-pays*, so downloading from it bills a Google Cloud project; we do not use it. `brb-traffic-full` returns "bucket does not exist". The public Google Drive folders work and are the source used.
+> - **Labels need sign-in:** `Train.csv` and the other CSVs return HTTP 401 without a Zindi sign-in and acceptance of the competition terms.
+> - **Static false positives:** a roadside billboard is detected as "truck" (confidence 0.26) on camera #2. Stationary false positives need a region of interest and track-motion filtering before counting.
 
 ### 2.2 AI City Challenge 2020 Track 1
 - **Source:** https://www.aicitychallenge.org/2020-data-and-evaluation/
@@ -86,7 +95,7 @@ the only accessible dataset with *labelled* night and rain on fixed roadside cam
 | Barbados has no count GT | Two annotators count a stratified sample of 1-min segments per class and direction, using a counting tool built in Phase 5 | Inter-annotator agreement reported; disagreements adjudicated and logged; counts never produced by our model |
 | Barbados has no weather/light labels | Label segments night/day/rain by inspection plus timestamps; record the labeller | Labels made blind to model output; stored in manifest |
 | UA-DETRAC has no native counts | Derive line-crossing counts from GT tracks with a versioned script | Script unit-tested on synthetic tracks; reported as "derived reference" |
-| Barbados resolution/fps/night/rain coverage unknown | Inspect first downloaded segments | Recorded in manifest |
+| Barbados resolution/fps/night/rain coverage unknown | **Resolved for resolution/fps/night** (960×540, 20 fps, night 02:00–05:50 local). Rain still to be checked by inspection | Recorded in manifest |
 | AIC21 count-GT completeness unknown | Inspect after download (5.4 GB) | Dataset dropped from AC-3 role if GT is demo-only |
 | Disk: 11.6 GB free | First subset ≤ 3 GB; data root outside OneDrive; external drive recommended | Download plan approved before each pull |
 

@@ -31,7 +31,7 @@ REQUIRED_MODULES = (
     "torch",
     "torchvision",
     "ultralytics",
-    "supervision",
+    "lap",
     "sklearn",
     "xgboost",
     "fastapi",

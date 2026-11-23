@@ -145,7 +145,7 @@ flowchart TB
 |-----|----------|--------------|-----------|
 | ADR-1 | **Signed python.org Python 3.11.9** (via `py install`) + stdlib `venv` outside OneDrive; `uv` only resolves/installs from `uv.lock` | System Python 3.15; uv-managed CPython 3.11.17 | Spec asks 3.11; widest wheel support. uv's unsigned venv launcher was **blocked by Smart App Control** (CodeIntegrity events 3033/3077, 2026-11-23); the PSF-signed build is not |
 | ADR-2 | Ultralytics YOLO (nano/small) as detector | RT-DETR, YOLOX (Apache-2.0), torchvision Faster R-CNN | Best speed/accuracy on CPU, OpenVINO export, built-in training; **licence is AGPL-3.0** → repo must be AGPL-compatible if distributed (R-09) |
-| ADR-3 | ByteTrack via `supervision` (MIT) or Ultralytics tracker | OC-SORT, BoT-SORT, DeepSORT | Spec-preferred; low-score association helps occlusion; no ReID model → CPU-friendly |
+| ADR-3 | ByteTrack via **Ultralytics `BYTETracker`** (+ `lap`) | `supervision` (dropped its tracker in 0.32), OC-SORT, BoT-SORT, DeepSORT | Spec-preferred; low-score association helps occlusion; no ReID model → CPU-friendly; no extra licence beyond ADR-2 |
 | ADR-4 | OpenVINO as optional CPU/iGPU accelerator | CUDA (not available), ONNX Runtime | Hardware is Intel Core Ultra with Arc iGPU + NPU, no NVIDIA |
 | ADR-5 | Streamlit + Plotly UI talking only to FastAPI | Streamlit calling Python directly | Clean interface contract, testable API, FR-4/FR-5 contracts |
 | ADR-6 | SQLite results store | PostgreSQL | Single-node prototype; switch only when concurrency is shown to require it |

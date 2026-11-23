@@ -28,9 +28,7 @@ class JsonLinesFormatter(logging.Formatter):
         return json.dumps(payload, default=str)
 
 
-def configure_logging(
-    level: str = "INFO", log_dir: Path | None = None, filename: str = "dsci41.jsonl"
-) -> None:
+def configure_logging(level: str = "INFO", log_dir: Path | None = None, filename: str = "dsci41.jsonl") -> None:
     """Configure the root logger once. Safe to call repeatedly (handlers are replaced, not duplicated)."""
     root = logging.getLogger()
     root.setLevel(level)

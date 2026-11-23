@@ -17,7 +17,7 @@ TRACKED_PACKAGES = (
     "torch",
     "torchvision",
     "ultralytics",
-    "supervision",
+    "lap",
     "opencv-python-headless",
     "numpy",
     "pandas",
