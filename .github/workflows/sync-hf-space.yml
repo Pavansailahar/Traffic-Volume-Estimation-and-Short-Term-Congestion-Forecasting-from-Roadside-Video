@@ -7,18 +7,7 @@
 name: Sync Hugging Face Space
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "src/**"
-      - "dashboard/**"
-      - "configs/**"
-      - ".streamlit/**"
-      - "deploy/hf_space/**"
-      - "pyproject.toml"
-      - "uv.lock"
-      - "scripts/build_hf_space.py"
-      - ".github/workflows/sync-hf-space.yml"
+  # Manual only. The simpler default deployment is deploy/hf_space/Dockerfile.remote (no tokens needed).
   workflow_dispatch:
 
 concurrency:
