@@ -13,6 +13,7 @@ import plotly.graph_objects as go  # noqa: E402
 import plotly.io as pio  # noqa: E402
 import streamlit as st  # noqa: E402
 
+from src.common.config import Settings  # noqa: E402
 from src.services.results import PipelineRun, RunStore  # noqa: E402
 
 CLASS_COLOURS = {
@@ -88,7 +89,11 @@ def _load(name: str, mtime: float) -> PipelineRun:  # mtime busts the cache when
 def select_run(key: str = "run") -> PipelineRun | None:
     names = [n for n in _run_names() if n != "smoke"] or _run_names()
     if not names:
-        st.info("No processed runs yet. Open **Video Analytics** to process a sample clip or upload a video.")
+        hosted = Settings().hosted
+        st.info(
+            "No processed runs yet. Open **Video Analytics** to "
+            + ("upload a video." if hosted else "process a sample clip or upload a video.")
+        )
         return None
     busiest = max(names, key=lambda n: RunStore().get(n).results.get("count_events") or 0)
     default = st.session_state.get("selected_run", busiest)

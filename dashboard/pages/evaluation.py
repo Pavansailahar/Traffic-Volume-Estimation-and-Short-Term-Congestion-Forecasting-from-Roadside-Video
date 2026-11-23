@@ -8,7 +8,14 @@ import streamlit as st
 
 from dashboard.common import kpi, pill, setup, source_note
 from src.common.config import Settings
-from src.evaluation.reference_counts import compare_with_pipeline, consolidate, load_plan, load_records, score
+from src.evaluation.reference_counts import (
+    PLAN_PATH,
+    compare_with_pipeline,
+    consolidate,
+    load_plan,
+    load_records,
+    score,
+)
 from src.services.results import RunStore
 
 setup("Model Evaluation", "What has been measured, under which conditions, and what is still open.")
@@ -16,7 +23,7 @@ settings = Settings()
 
 ref_records = load_records()
 ref_table, agreement = consolidate(ref_records)
-plan = load_plan()
+plan = load_plan() if PLAN_PATH.is_file() else []
 comparison = compare_with_pipeline(ref_table, plan, RunStore().root) if not ref_table.empty else pd.DataFrame()
 overall = score(comparison) if not comparison.empty else None
 if overall is not None:
@@ -24,7 +31,11 @@ if overall is not None:
 elif ref_records:
     counting_status = ("Counting in progress", "warn", "Hand counts exist but no clip has two agreeing counts yet.")
 else:
-    counting_status = ("Not measured", "bad", "No hand counts yet: open Reference Counting.")
+    counting_status = (
+        "Not measured",
+        "bad",
+        "No hand counts yet." if settings.hosted else "No hand counts yet: open Reference Counting.",
+    )
 
 st.subheader("Acceptance status")
 rows = [
@@ -50,7 +61,10 @@ st.divider()
 st.subheader("Counting accuracy against hand counts")
 if not ref_records:
     st.info(
-        f"No hand counts yet. The plan has {len(plan)} clips; each needs two independent counts in "
+        "Counting accuracy is measured in the project against human hand counts (two independent counters per "
+        "clip, docs/COUNTING_PROTOCOL.md). No hand counts have been entered yet."
+        if settings.hosted
+        else f"No hand counts yet. The plan has {len(plan)} clips; each needs two independent counts in "
         "**Reference Counting** (protocol: docs/COUNTING_PROTOCOL.md)."
     )
 else:
@@ -125,8 +139,8 @@ st.subheader("Detection on UA-DETRAC, by condition")
 reports = sorted((settings.reports_root / "phase5").glob("detection_ua_detrac_*.json"))
 if not reports:
     st.info(
-        "The UA-DETRAC evaluation has not run yet (its download is still in progress). "
-        "Run `python scripts/eval_detection_ua_detrac.py` when the download completes."
+        "The UA-DETRAC detection evaluation has not been run yet."
+        + ("" if settings.hosted else " Run `python scripts/eval_detection_ua_detrac.py`.")
     )
 else:
     rec = json.loads(reports[-1].read_text(encoding="utf-8"))

@@ -30,6 +30,10 @@ class Settings(BaseSettings):
     log_dir: Path = Field(default=Path.home() / "dsci41" / "logs")
     log_level: Literal["DEBUG", "INFO", "WARNING", "ERROR"] = "INFO"
     device: Literal["auto", "cpu", "cuda", "xpu", "openvino"] = "auto"
+    hosted: bool = False  # public demo mode (e.g. Hugging Face Space): uploads only, size limits
+    hosted_max_upload_mb: int = 200
+    hosted_max_seconds: float = 60.0
+    hosted_max_width: int = 1280
 
 
 class _Strict(BaseModel):

@@ -27,6 +27,21 @@ harness that checks it against reference counts across occlusion, rain and night
 video frames. Refresh its data with `python scripts/export_showcase_data.py`, then commit. To host it on Vercel,
 import this repository at vercel.com/new and set **Root Directory** to `site` (framework preset: Other).
 
+## Live demo (Hugging Face Space)
+
+The full dashboard, with upload → detect → track → count, can run on a free Hugging Face Space (Docker, CPU).
+`deploy/hf_space/` holds the Space card and Dockerfile; `scripts/build_hf_space.py` assembles a small bundle (app
+code, configs and lock file only); `.github/workflows/sync-hf-space.yml` pushes it to the Space on every push to
+`main`.
+
+One-time setup:
+1. On huggingface.co, create a **Space** (SDK: Docker, template: Blank, hardware: CPU basic, free).
+2. Create an access token with **Write** permission (Settings → Access Tokens).
+3. In this GitHub repository: Settings → Secrets and variables → Actions:
+   add the secret `HF_TOKEN` (the token) and the variable `HF_SPACE` (`<hf-username>/<space-name>`).
+4. Actions tab → **Sync Hugging Face Space** → Run workflow. The Space then builds (about 10 minutes the first
+   time) and serves the dashboard in hosted mode: uploads only, first 60 s of each video, 1280 px.
+
 ## Planning documents
 
 [PROJECT_ANALYSIS](PROJECT_ANALYSIS.md) · [REQUIREMENTS](REQUIREMENTS.md) · [DATASET_RESEARCH](DATASET_RESEARCH.md) ·

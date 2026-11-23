@@ -13,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import streamlit as st  # noqa: E402
 
 import src  # noqa: E402,F401  (sets YOLO_AUTOINSTALL=false before any Ultralytics import)
+from src.common.config import Settings  # noqa: E402
 
 st.set_page_config(page_title="DSCI-41 Traffic Intelligence", page_icon="🚦", layout="wide")
 
@@ -31,7 +32,11 @@ navigation = st.navigation(
         ],
         "Assurance": [
             st.Page(PAGES / "evaluation.py", title="Model Evaluation", icon=":material/fact_check:"),
-            st.Page(PAGES / "reference_counting.py", title="Reference Counting", icon=":material/edit_note:"),
+            *(
+                []
+                if Settings().hosted
+                else [st.Page(PAGES / "reference_counting.py", title="Reference Counting", icon=":material/edit_note:")]
+            ),
             st.Page(PAGES / "monitoring.py", title="System Monitoring", icon=":material/monitor_heart:"),
         ],
     }

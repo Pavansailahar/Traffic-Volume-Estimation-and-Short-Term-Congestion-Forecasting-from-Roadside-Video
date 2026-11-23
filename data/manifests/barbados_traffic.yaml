@@ -1261,6 +1261,294 @@ items:
   - O2
   - O4
   - KPI-2
+- id: normanniles1_2025-10-24-06-30-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-30-45.mp4
+  sha256: 67148c495bce648945fed011c02fa060561bcef3769758c6deb590c37ae553b8
+  size_bytes: 3806435
+  source_ref: gdrive:1q7uOHZbwGgjAh2dbKw-lk7nZ2hRHzEAk
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:30:45'
+    start_time_local: '2025-10-24T02:30:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-31-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-31-45.mp4
+  sha256: 84fe9c5f0205665df03d6d1d8cb1893a4dbef29a3c6ac0c738232e7313be88fb
+  size_bytes: 3601382
+  source_ref: gdrive:1AtoxmM43dMwUtTTz0xmSwfU02PZ8OVjL
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:31:45'
+    start_time_local: '2025-10-24T02:31:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-32-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-32-45.mp4
+  sha256: f2747e8b36911bfbaf5b26881a2a522874daf07d6abc15b6fad7bee2d9945b39
+  size_bytes: 3706672
+  source_ref: gdrive:1yu68_tM6sHEa0UwdR_h63Ew3L8fs5sE4
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:32:45'
+    start_time_local: '2025-10-24T02:32:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-33-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-33-45.mp4
+  sha256: 36f48e5c22185b40a100f78974dee99071af6d881d3daeb539bbf416348635b2
+  size_bytes: 3706192
+  source_ref: gdrive:1p_vowMChst-1A0ZjHWbJ8ORO03ZxPOy2
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:33:45'
+    start_time_local: '2025-10-24T02:33:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-34-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-34-45.mp4
+  sha256: afb5040afa992398c270d22d59d84308b6868cb543d6ac62fc50871f9a9c963d
+  size_bytes: 3721354
+  source_ref: gdrive:1Yia26tGhzNVTX1R5kJX4mJCEkkd0bC-8
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:34:45'
+    start_time_local: '2025-10-24T02:34:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-35-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-35-45.mp4
+  sha256: f701898379f9b9b4e66ef6b93be607213e8b978e529743af2dd98cdbb98c3b58
+  size_bytes: 3813349
+  source_ref: gdrive:18NUs2ybeygk6nYWaT_fteXjEiwxx-3aB
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:35:45'
+    start_time_local: '2025-10-24T02:35:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-36-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-36-45.mp4
+  sha256: 08c8811a42bf514dba1ba364ffb46bf750bd80625817139590273bbc39055ed7
+  size_bytes: 3711268
+  source_ref: gdrive:1wt6dtL7Gm65-py9ryfTREG92GDqRUvNo
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:36:45'
+    start_time_local: '2025-10-24T02:36:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-44-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-44-45.mp4
+  sha256: dab6a16bb469aedce3a02136e8c1a2e460307715c97a626e271cf6cccafc2d08
+  size_bytes: 3766155
+  source_ref: gdrive:1QkdDc2WWQUssB23sUGJa5K9xhepfn8Nx
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:44:45'
+    start_time_local: '2025-10-24T02:44:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-45-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-45-45.mp4
+  sha256: 2a6f52f6aa00b2cca44143244368bc6aac9684872bcbfece3e20086295577082
+  size_bytes: 3849525
+  source_ref: gdrive:1TegPvgFIpGaQ80AP08dqWbZIDWnEVM6M
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:45:45'
+    start_time_local: '2025-10-24T02:45:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-46-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-46-45.mp4
+  sha256: fba3e5ff6c251457f4a65dc6d76a90a30ef1778fb0da304e0180d1c532a8bbe5
+  size_bytes: 3916266
+  source_ref: gdrive:1yQWuo2N-FabKWLq5keFpFkoeaiyYRNNy
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:46:45'
+    start_time_local: '2025-10-24T02:46:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-47-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-47-45.mp4
+  sha256: daada02829b312e4284a9d6d2e2155c2f6c832dab075985d32fd11c128524c8b
+  size_bytes: 3985146
+  source_ref: gdrive:1F8oEmXltXVwpUb3a9nazFRSOdq0IgoM5
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:47:45'
+    start_time_local: '2025-10-24T02:47:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-48-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-48-45.mp4
+  sha256: 919e36ea4afa97dc3729b43268c062505a51fc6cbb93cc407a97348b39186932
+  size_bytes: 3694446
+  source_ref: gdrive:1r3eTcsH0pjsgwBepg7_HYkNCw65FjtwD
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:48:45'
+    start_time_local: '2025-10-24T02:48:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-49-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-49-45.mp4
+  sha256: 4224f9b0583e7abec4fae66063fdde6d5420f0833a9d567defa11ed632bb31c5
+  size_bytes: 3822508
+  source_ref: gdrive:1OUS4Wq0mpXEwQeVgupL36k-1bxRa6yge
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:49:45'
+    start_time_local: '2025-10-24T02:49:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-50-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-50-45.mp4
+  sha256: 48c71c4c1fb253ded3c35b0ff2cf63bf4a9ef4687f90813119bdabbd3bc7b615
+  size_bytes: 3713720
+  source_ref: gdrive:1T3qkn284njPR04tCzhNQFzLAkayAafLf
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:50:45'
+    start_time_local: '2025-10-24T02:50:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-51-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-51-45.mp4
+  sha256: 34c8bcb464615d2b8f8278863138479a1d99c5d6f4d1ea3a456da4e2df59631d
+  size_bytes: 3671394
+  source_ref: gdrive:1rjV9S7UEy0w6Dts7Pv1T3v964-2qE-At
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:51:45'
+    start_time_local: '2025-10-24T02:51:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles1_2025-10-24-06-52-45
+  file: raw/barbados_traffic/normanniles1/normanniles1_2025-10-24-06-52-45.mp4
+  sha256: dc77dc146a9a90b04a54bb5e5b90f424aa28e3a592545a7916f1acccd718bd25
+  size_bytes: 3731569
+  source_ref: gdrive:1gxC3VFzfDNNC-9usCYZqEJlAmUDBIrp2
+  partition: unassigned
+  attributes:
+    camera_id: normanniles1
+    start_time_filename: '2025-10-24T06:52:45'
+    start_time_local: '2025-10-24T02:52:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
 - id: normanniles2_2025-10-21-06-00-45
   file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-06-00-45.mp4
   sha256: 9b8a89dc1d12c7621df08bcfbb929762efda1810dac27b9ee2a409c575d1021e
@@ -2323,6 +2611,474 @@ items:
   - O2
   - O4
   - KPI-2
+- id: normanniles2_2025-10-21-17-50-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-50-45.mp4
+  sha256: ffa3efacd976496f04b46e8fa3075c795825ab43e4708ea2b519f5e610d3011e
+  size_bytes: 9998202
+  source_ref: gdrive:1CdLknVWLtps61vo19LcALIIBRhhXdvJm
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:50:45'
+    start_time_local: '2025-10-21T13:50:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-51-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-51-45.mp4
+  sha256: 9c1712c6ea407390e270e736988edba1f0fe80ba3d40db87a69e402dadbc9f60
+  size_bytes: 10490785
+  source_ref: gdrive:1Y9TXC3pNa3fflXQS6IwEGConvRfz8bA9
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:51:45'
+    start_time_local: '2025-10-21T13:51:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-52-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-52-45.mp4
+  sha256: cedc00cd673c177b54ebc0f68d41390583177e7310eb1c416df2255809f228c3
+  size_bytes: 10364210
+  source_ref: gdrive:142ljyM3kRF7AJ9HnTeRnWbecbyOfZezZ
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:52:45'
+    start_time_local: '2025-10-21T13:52:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-53-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-53-45.mp4
+  sha256: e33744361c1b5dded80a11e090b599c46266501a8b45c0fd150158dce5c045c8
+  size_bytes: 10588163
+  source_ref: gdrive:1WrpBjMk_sd7OjyKxgB_UXdq_jfi-_GCc
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:53:45'
+    start_time_local: '2025-10-21T13:53:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-54-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-54-45.mp4
+  sha256: 05269bebbdd596a0b0b77920dbba4a0b7af8467f0c81a97ab9620bd42cbead6c
+  size_bytes: 11785187
+  source_ref: gdrive:1PhvJJYV4wTUm3A5BYs_20C8xsst3b7Sm
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:54:45'
+    start_time_local: '2025-10-21T13:54:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-55-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-55-45.mp4
+  sha256: 1a421f88f10f2410211dc1be0b408487d01b9b13fa32460f9033ab89162b9a7f
+  size_bytes: 10801689
+  source_ref: gdrive:108DO5_5P-fLr7ew3a5ECHpfFq6uUuO0n
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:55:45'
+    start_time_local: '2025-10-21T13:55:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-56-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-56-45.mp4
+  sha256: 6929f8b5a177147b5301ba87f5d5e99c399578a989b0a0807eaab6eaa0228f48
+  size_bytes: 10829562
+  source_ref: gdrive:1iU3KZBtchKqRVbeqMy8fjMoUAMh2XrEu
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:56:45'
+    start_time_local: '2025-10-21T13:56:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-57-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-57-45.mp4
+  sha256: ae081efd8919c4b30a97c2f02e0e7d9281b9070e8d55ad6c8e1e3f20bd077d97
+  size_bytes: 10478466
+  source_ref: gdrive:1HHVOx6BZ-DMXhToUhPDguAKfa5oqPlHM
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:57:45'
+    start_time_local: '2025-10-21T13:57:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-58-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-58-45.mp4
+  sha256: 04386a880ca551a465079468792fbc27a7d4e5f6acbb9c49042d476361248289
+  size_bytes: 10534771
+  source_ref: gdrive:1UfLk_ni0Q15U8XVR_HcpMWQCaprSnRfQ
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:58:45'
+    start_time_local: '2025-10-21T13:58:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-21-17-59-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-21-17-59-45.mp4
+  sha256: 50ded7b552c9f0735a6b3a21d5719a14bd63bd4bf938d6c7853ac384597325a5
+  size_bytes: 10985275
+  source_ref: gdrive:1EQEU0Qhn-i1xHNYPSDdQL6nzU84XgaPR
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-21T17:59:45'
+    start_time_local: '2025-10-21T13:59:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-30-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-30-45.mp4
+  sha256: 803ad290dec286d1b804d31be232abe5da884f4e6a3fadd6443af7cb4b8f082b
+  size_bytes: 3931185
+  source_ref: gdrive:1cSVRpBHoWjd-jOKmskWR1-f4pH7iAnnR
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:30:45'
+    start_time_local: '2025-10-24T02:30:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-31-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-31-45.mp4
+  sha256: fd3d96f461185c056a7e49dcfa10a81430f2e6f465f6befe1f39475887312a7d
+  size_bytes: 3445713
+  source_ref: gdrive:1mKSYxyCUg6Sf0DeCIcdCsHC2DcvVklWM
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:31:45'
+    start_time_local: '2025-10-24T02:31:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-32-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-32-45.mp4
+  sha256: bc37f2918d8d8881a8a93647cf905a9fd81b1b40e20f8f9cca4e07fd91df8739
+  size_bytes: 3673824
+  source_ref: gdrive:1H8Dy4PzARJe_73Y8qDWReb3zlro0DPXJ
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:32:45'
+    start_time_local: '2025-10-24T02:32:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-33-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-33-45.mp4
+  sha256: d79d65b49c87696e174324e0262a3c195de296b8bcd72d0554d2d271c1dc91ce
+  size_bytes: 3525802
+  source_ref: gdrive:1g0Xf5eoCsTWGqWxz4Sovq9QIaob_hrwc
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:33:45'
+    start_time_local: '2025-10-24T02:33:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-34-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-34-45.mp4
+  sha256: 2d5a066ae718e382e5b30f0e2ea706901d0400ac96161a83a70a3d6e9cde8b1b
+  size_bytes: 3640632
+  source_ref: gdrive:1-MWz_a2NvNvtG1blreye8siapKkRM2zp
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:34:45'
+    start_time_local: '2025-10-24T02:34:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-35-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-35-45.mp4
+  sha256: fb643c6968625fc6e80664fb043722d68c6505244015cec21669270085a34d58
+  size_bytes: 3884519
+  source_ref: gdrive:1kdgQk6pCdSAIujMRKKxYX2c9_ZUW9C60
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:35:45'
+    start_time_local: '2025-10-24T02:35:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-36-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-36-45.mp4
+  sha256: 2730f14520f6e0105e6aa3043b110bbe943779932e6e2c21cf1d59c1d175bb38
+  size_bytes: 3477175
+  source_ref: gdrive:1kL-efSMa2tqTpCYYJOARgSQPz8yJp0jf
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:36:45'
+    start_time_local: '2025-10-24T02:36:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-44-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-44-45.mp4
+  sha256: 14e53d922abc6785993e31683fe4d08f7da28251b95629cf513e4d6a7913c9ef
+  size_bytes: 3863637
+  source_ref: gdrive:1xX15Tf9mBgM8jIDTfivSHxmpVhJ4fmhs
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:44:45'
+    start_time_local: '2025-10-24T02:44:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-45-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-45-45.mp4
+  sha256: 4ba97310a3ac6e5b2db2594480e6cb7bb685e2fb5c4b56e4ff9922188da490a3
+  size_bytes: 3946725
+  source_ref: gdrive:1qsTrn9Ip6F_ATrcRH9UyVNNVKuMhzLk5
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:45:45'
+    start_time_local: '2025-10-24T02:45:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-46-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-46-45.mp4
+  sha256: aa525ea8406e13853f7c73049d0b332fae15e54bd929720e41796688dc131b71
+  size_bytes: 3823799
+  source_ref: gdrive:1C75ElViDyesQb5jTq5wEcJ2YVNhHxRkv
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:46:45'
+    start_time_local: '2025-10-24T02:46:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-47-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-47-45.mp4
+  sha256: 22e78dae315c18e93a215ccdf438a707a59c19951043418cfdf4ef10ce438edf
+  size_bytes: 3811938
+  source_ref: gdrive:1-LIpzXXqV-7uwf3S6eiY86v241iMNY0J
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:47:45'
+    start_time_local: '2025-10-24T02:47:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-48-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-48-45.mp4
+  sha256: bdb6e9d5122df2129d1b0e447cc80182c165e8f2634034b1efba82407edeb6e4
+  size_bytes: 3678610
+  source_ref: gdrive:1GKXEeTCGEwbW0a5r2KtWY1jEQb91KGcl
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:48:45'
+    start_time_local: '2025-10-24T02:48:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-49-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-49-45.mp4
+  sha256: 81074e09e4cbf183345fc8a0bddd954e5a4594a034655ca3b5333f1a7a4dd8e7
+  size_bytes: 3631590
+  source_ref: gdrive:17KwsOc9NVAbl38sf64M6Y5D7s52PurUl
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:49:45'
+    start_time_local: '2025-10-24T02:49:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-50-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-50-45.mp4
+  sha256: 402b70f71c456ce4ecc53a66ef9d2c974393cf44beff5dd28c2bc0fb81ca73d8
+  size_bytes: 3716487
+  source_ref: gdrive:1ZqF2RNFeCu1A04AayHGwQQT1vMjVhRqD
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:50:45'
+    start_time_local: '2025-10-24T02:50:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-51-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-51-45.mp4
+  sha256: df8bd22e157aa3589a96d1dd0861ae8067d381c6d1b5a38862c560151d9a4b01
+  size_bytes: 3460584
+  source_ref: gdrive:1MIE7KRIGL0PEn8tKA89gABke3heKrByx
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:51:45'
+    start_time_local: '2025-10-24T02:51:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles2_2025-10-24-06-52-45
+  file: raw/barbados_traffic/normanniles2/normanniles2_2025-10-24-06-52-45.mp4
+  sha256: 7beeff45b12d07dad8cf5edb939203f7ac61c32bf132b1ab303d6fde56f4940f
+  size_bytes: 3721144
+  source_ref: gdrive:1oBxCeylOndpjd81TSsA4G_AD9VFJxDFB
+  partition: unassigned
+  attributes:
+    camera_id: normanniles2
+    start_time_filename: '2025-10-24T06:52:45'
+    start_time_local: '2025-10-24T02:52:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
 - id: normanniles3_2025-10-21-06-00-45
   file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-06-00-45.mp4
   sha256: c5cf9889ed045735b553a91211443e6c477d527d6e1e095abfe74956daa63d7b
@@ -3151,6 +3907,708 @@ items:
   - O2
   - O4
   - KPI-2
+- id: normanniles3_2025-10-21-17-37-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-37-45.mp4
+  sha256: 0b5a07c5a539ce9410aff06aeddb360c895d1823194f29373d536b1b54d22ed1
+  size_bytes: 10697565
+  source_ref: gdrive:1idm02apLQMcOBtxkEmURog_nBrqRltwV
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:37:45'
+    start_time_local: '2025-10-21T13:37:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-38-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-38-45.mp4
+  sha256: 7be85ab496ac0b922b5dddac50697a2d3fe6a4dbefcbc90109b69fb7b6bd59dd
+  size_bytes: 10425910
+  source_ref: gdrive:1pfEM_NORLubJAlaIdqYCSgs6BoAMc77E
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:38:45'
+    start_time_local: '2025-10-21T13:38:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-39-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-39-45.mp4
+  sha256: 3e08e40dcfe9b91bdd7486795deb3950bf0d574dde2e3743665c342072018882
+  size_bytes: 10587415
+  source_ref: gdrive:1Z_9KiEeuUTUSRXwiX2AwYJE4HlwA3N7p
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:39:45'
+    start_time_local: '2025-10-21T13:39:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-40-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-40-45.mp4
+  sha256: 1ee0e62e6102bace26010a8b9e98c08fddc8f350dd5ccf1979dfa7abd9f6e408
+  size_bytes: 10889065
+  source_ref: gdrive:1bWvLM8HnhV-mwcTAb82Pe2PZsIkkYdB1
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:40:45'
+    start_time_local: '2025-10-21T13:40:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-41-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-41-45.mp4
+  sha256: b5a17077e3712d9385d94cebd7e1e8444213c9724b2055ae0e8c7b07bea737ab
+  size_bytes: 9602633
+  source_ref: gdrive:1LXVWAN07ujfq5qcYo3c1nGdhEUDkY4Ei
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:41:45'
+    start_time_local: '2025-10-21T13:41:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-42-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-42-45.mp4
+  sha256: b97c3cd341cd7d716889a698c47a679cf963121d627db799f7f2bcc6d59a5142
+  size_bytes: 9476816
+  source_ref: gdrive:1nefwsS63V8iwv8gF6CmsdGdZgzkX3EIY
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:42:45'
+    start_time_local: '2025-10-21T13:42:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-43-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-43-45.mp4
+  sha256: c8f36d2e3676ece9c6ddb7e8b6c97c5dc513d9572e57bd1b6f630247b816cd94
+  size_bytes: 8815392
+  source_ref: gdrive:15juwJ0N1PMkWR8ElffZqkfJHJPdFR5dX
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:43:45'
+    start_time_local: '2025-10-21T13:43:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-44-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-44-45.mp4
+  sha256: fa7c7ebcecb4280234fbda17b0b5cdc896f0ff19c4d54ecb78c9f8906f994aee
+  size_bytes: 10225159
+  source_ref: gdrive:1huwC2enuHejnQ8IBPNHGBTsnmtS_ll5q
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:44:45'
+    start_time_local: '2025-10-21T13:44:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-45-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-45-45.mp4
+  sha256: fc152e7aeb13755d7b5e53220e67b7564c56e22d409d30a6c2bac9068147575f
+  size_bytes: 10026359
+  source_ref: gdrive:1RRiYQunxkN5JibSt5pr9En-2dIknXzDq
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:45:45'
+    start_time_local: '2025-10-21T13:45:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-46-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-46-45.mp4
+  sha256: 41de7e979a94ab2b9972261caab5b2dfb755f2bd61b315de7d8401d2d9ca08d2
+  size_bytes: 9876053
+  source_ref: gdrive:1kYDTzaSnu-WfsqX7yf0DaKX-vb4X7No8
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:46:45'
+    start_time_local: '2025-10-21T13:46:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-47-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-47-45.mp4
+  sha256: 4ea74b40a820cd0c3691b2aecf516c2e7d8dde69075603699705d2f42391b661
+  size_bytes: 10082621
+  source_ref: gdrive:1DEMg_6j1NvNZm9BkwM23jE3Wkpi4ihrM
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:47:45'
+    start_time_local: '2025-10-21T13:47:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-48-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-48-45.mp4
+  sha256: 8338b6deebba4246a286dcf2d2eff59af6c3c04f06351c6badd8774160d9e22b
+  size_bytes: 10354465
+  source_ref: gdrive:14fgYtYxDZ8Jyfj4bL8yWjaKdVms0fFks
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:48:45'
+    start_time_local: '2025-10-21T13:48:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-49-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-49-45.mp4
+  sha256: 8ab7b87558bf4fcba8ada4623e3749a00a7602c535eb8a0adc5d96b379435e7d
+  size_bytes: 9977439
+  source_ref: gdrive:1olFoEWq70FIGS3_P0mjR3SMgTyWNq6l1
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:49:45'
+    start_time_local: '2025-10-21T13:49:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-50-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-50-45.mp4
+  sha256: e6c4b8117fe236a5fe3b703fd9f9da526d6839e7338198da04b98397fe2cdc77
+  size_bytes: 9864787
+  source_ref: gdrive:1MhLhEzcbEXST60oaRIvu7Y8xonCH-QIR
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:50:45'
+    start_time_local: '2025-10-21T13:50:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-51-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-51-45.mp4
+  sha256: 5b90594ca06258acc40c1a30c9f3a443f45aac8cc20bd0e3645aa799b85451f1
+  size_bytes: 10505564
+  source_ref: gdrive:1kmcCsIRgK--6Q-9jrwkPonPnf2KO_NUU
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:51:45'
+    start_time_local: '2025-10-21T13:51:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-52-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-52-45.mp4
+  sha256: f003d3736b2c0f142b499261a030427585a0b201c069236526d081f66d7c180f
+  size_bytes: 10626833
+  source_ref: gdrive:1P9kNFm9eJcaIl-gcQWrRQCrooQNLlufE
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:52:45'
+    start_time_local: '2025-10-21T13:52:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-53-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-53-45.mp4
+  sha256: fbba6fddd4e228d1dcd0ff074906071594ca1a5f643510f3440423ff8ef3702d
+  size_bytes: 10613380
+  source_ref: gdrive:1doBpvFhYDeP7TUM3qBvhur2GJoarx5Wm
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:53:45'
+    start_time_local: '2025-10-21T13:53:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-54-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-54-45.mp4
+  sha256: 8b275fb521b388aaf1f6e35443158d2e0a2fd433df3708fdaac522fde1d89c43
+  size_bytes: 11112585
+  source_ref: gdrive:1sm5QDN6M1g4hy9ieCjkS78Hc84MLvNJC
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:54:45'
+    start_time_local: '2025-10-21T13:54:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-55-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-55-45.mp4
+  sha256: 52cd4648fa6a45aa30c629ba5bdb4afbebed3db37f076e83ea215fd6d0c3d4e2
+  size_bytes: 10598276
+  source_ref: gdrive:1TIgtA7ATZjwLCp2CNHYvPXxbYG8XUUnb
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:55:45'
+    start_time_local: '2025-10-21T13:55:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-56-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-56-45.mp4
+  sha256: 14970c7396a80bf49bedc38a395e5241725e044197a7dc0096e8e16d267371ec
+  size_bytes: 10756829
+  source_ref: gdrive:1WjH-KRnOx9GD291Ay7LyFcptbwf6EmtK
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:56:45'
+    start_time_local: '2025-10-21T13:56:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-57-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-57-45.mp4
+  sha256: 2aabd57760d7220b9dc2c72390566c94b3ae8bc51877f21de6093fd0973fa5a4
+  size_bytes: 10512334
+  source_ref: gdrive:1QK6qO-m_M60xzKE8y9Jp7vo4pxQAUY8N
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:57:45'
+    start_time_local: '2025-10-21T13:57:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-58-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-58-45.mp4
+  sha256: c841344ff8f2fb7749e652a1b9a4b0fe1c94f5a8270ded29f7e972bf368d6073
+  size_bytes: 10678846
+  source_ref: gdrive:1ZLo8-lUh8Jm2lxw6sRdLy0T4NXT1Qjbb
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:58:45'
+    start_time_local: '2025-10-21T13:58:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-21-17-59-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-21-17-59-45.mp4
+  sha256: 00bbcaf32f5612bea420662ef84e648c417bba7d418248e98e17609592de0415
+  size_bytes: 10832807
+  source_ref: gdrive:1xgyEV0U6Q83Dc4behdeqmJl-13_2AQ9V
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-21T17:59:45'
+    start_time_local: '2025-10-21T13:59:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-30-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-30-45.mp4
+  sha256: e13e8a1bcf687d040089aa0b4bfbf0b9bc7d72b8ce493576fa77e6ff1971d104
+  size_bytes: 3959013
+  source_ref: gdrive:14pfKXsWDmCR2uNmzpLHXqUmxHsc6Hy_3
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:30:45'
+    start_time_local: '2025-10-24T02:30:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-31-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-31-45.mp4
+  sha256: c3ec90e2e17cc150350f444553ebd052e711e228ffa9d76f7f713493c52235be
+  size_bytes: 3698876
+  source_ref: gdrive:1gadZ0o3PJQZRZOaNx7FFSJvBbZYO1OFY
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:31:45'
+    start_time_local: '2025-10-24T02:31:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-32-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-32-45.mp4
+  sha256: 998cfe2ba3da414c09c3a49f68ba41ebb7290a948a95f8febd85319a948966d1
+  size_bytes: 3827616
+  source_ref: gdrive:1Xiu_XGNd7AokWZG8EgQSSnVFOoR0SNeZ
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:32:45'
+    start_time_local: '2025-10-24T02:32:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-33-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-33-45.mp4
+  sha256: 5a837b6003c0fde9ff3ebe145f24ab34b0fb29867af3b82665c506478eb72b8e
+  size_bytes: 3677421
+  source_ref: gdrive:1vuBW44WPSsfJkidpP9J3i26JHdUO0Lt7
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:33:45'
+    start_time_local: '2025-10-24T02:33:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-34-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-34-45.mp4
+  sha256: 7508e66e58a1be8ff222036946443a5d690dae808aac6f764d196721b05d083b
+  size_bytes: 3798277
+  source_ref: gdrive:1ri24F9yV6mHUgB_1M4tmX3pRZaSk8p-6
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:34:45'
+    start_time_local: '2025-10-24T02:34:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-35-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-35-45.mp4
+  sha256: 8051e50893ff94519a66a10b74610bba820b64d74c26e28445aaa595eb3d5fc2
+  size_bytes: 3905561
+  source_ref: gdrive:1XTpxxA1uSoQL8nqPzUzj3pqhbfRtw1ze
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:35:45'
+    start_time_local: '2025-10-24T02:35:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-36-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-36-45.mp4
+  sha256: e800ffa5de76bbb0076c291012b6e0c758cea2b857f36023d65f11cfb9cbf959
+  size_bytes: 3778490
+  source_ref: gdrive:1fXtT5R3WqAoefQ3NAsw1tovBAD7tOup-
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:36:45'
+    start_time_local: '2025-10-24T02:36:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-44-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-44-45.mp4
+  sha256: a7f093ebf238773547155f724b800121a52f5486cb12f408d72502522073fe3a
+  size_bytes: 3923811
+  source_ref: gdrive:1AlJTapR5uHGOOd3eel9Ms5OgZt2IcGxx
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:44:45'
+    start_time_local: '2025-10-24T02:44:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-45-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-45-45.mp4
+  sha256: 344a537250dbdc788c0d5c1b371c887449ee44ed64faf4fc2f75cade97249bfe
+  size_bytes: 4151105
+  source_ref: gdrive:1B7nbyeFHgxdxPvIqMiMRoRK_QNAC8s9k
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:45:45'
+    start_time_local: '2025-10-24T02:45:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-46-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-46-45.mp4
+  sha256: 8ed4f3b6412d61472b8c43991b7cc235c45f07b6e4d3c170a5be8900714d1bec
+  size_bytes: 3916842
+  source_ref: gdrive:1CPWwD9YK2UT_bFCFCcmVnl6oqBtt4mD0
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:46:45'
+    start_time_local: '2025-10-24T02:46:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-47-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-47-45.mp4
+  sha256: 5659097447c2d665ca19e4b5268de647b66cffbe0e6614ce251731d6be7da075
+  size_bytes: 4021844
+  source_ref: gdrive:197Pio9eDhnm25h2GDV7GiFUzpLYUCDut
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:47:45'
+    start_time_local: '2025-10-24T02:47:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-48-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-48-45.mp4
+  sha256: f2905d4167c6faf1b773b7c188a93e6047eb70f4d4f402f5598a76ba281e0b05
+  size_bytes: 3866670
+  source_ref: gdrive:1YzZ7V5oObwdvoo_uD3yq23m5JbWO28X4
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:48:45'
+    start_time_local: '2025-10-24T02:48:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-49-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-49-45.mp4
+  sha256: c9ec81a5d8538647cd0eabcc7398d42d3cf0824cf4be22a31bfd12a94b42dbbf
+  size_bytes: 3875295
+  source_ref: gdrive:1HaL6-IWPMDVrNnD3C-9LW4ncu6WPPKyA
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:49:45'
+    start_time_local: '2025-10-24T02:49:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-50-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-50-45.mp4
+  sha256: d1c7c638d2c1cd22adf5eef7639a63a824b006acc3c8c9b0c5eb2f95e6db4c80
+  size_bytes: 3760070
+  source_ref: gdrive:16ZsIx8NUDELz54N2p5Zags1Arlb9uE6g
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:50:45'
+    start_time_local: '2025-10-24T02:50:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-51-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-51-45.mp4
+  sha256: bc007f6f76829dc9d2ef3fbe756252a2cf85de97c6fc2397dff0872332c239c7
+  size_bytes: 3858382
+  source_ref: gdrive:1lZS5NR9O2tSVUo0ojWvKrpDtd0bggnC0
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:51:45'
+    start_time_local: '2025-10-24T02:51:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles3_2025-10-24-06-52-45
+  file: raw/barbados_traffic/normanniles3/normanniles3_2025-10-24-06-52-45.mp4
+  sha256: 291f34ead2f03e599ca671972ccddd0ba5036dd01b53ee78bc13f9b84ad03629
+  size_bytes: 3807955
+  source_ref: gdrive:1lb0M8__xsz_htQ-4JSDbxCfqxaOj8nWD
+  partition: unassigned
+  attributes:
+    camera_id: normanniles3
+    start_time_filename: '2025-10-24T06:52:45'
+    start_time_local: '2025-10-24T02:52:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
 - id: normanniles4_2025-10-21-06-00-45
   file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-06-00-45.mp4
   sha256: 10b5f312136bd8dcf333d495fb47f0a24d1b64e41d0519db861b43416f09d6c1
@@ -3974,6 +5432,708 @@ items:
     local_offset_hours: -4.0
     window: d21_local0900
     condition_hint: morning_peak
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-37-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-37-45.mp4
+  sha256: 3a90a7dd654f4407c88afb34bb62c6a6450092cc4f3a52b67cc965f979adea4f
+  size_bytes: 10649306
+  source_ref: gdrive:18gDk7hnSPLIDeZuaFF-VJjO0QZEGEFZk
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:37:45'
+    start_time_local: '2025-10-21T13:37:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-38-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-38-45.mp4
+  sha256: 0f3d815f5d8694b21c4d13ff8abcea0042c983bbdd27863df6e90fc4a6ae3ca6
+  size_bytes: 10203568
+  source_ref: gdrive:1oPX4e1u64piFvyWSDhZyweDP2cr0VV09
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:38:45'
+    start_time_local: '2025-10-21T13:38:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-39-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-39-45.mp4
+  sha256: df1114795c6dbb8122e01e475b669acd5de3544bfddbe55ee7ca211b2c521d6c
+  size_bytes: 10752958
+  source_ref: gdrive:1uSdW8GwNg4RUEEpvYLtsAYhK504Q3m3A
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:39:45'
+    start_time_local: '2025-10-21T13:39:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-40-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-40-45.mp4
+  sha256: f9970da005876810551f91b9a122665c6e8380925a3f10b8eb5894058dbb39b4
+  size_bytes: 11313198
+  source_ref: gdrive:1Nt-vbYcLOa2zlKXSsphaHWU8wao9QGRe
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:40:45'
+    start_time_local: '2025-10-21T13:40:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-41-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-41-45.mp4
+  sha256: 631b0c8717757376e8f19de41ad6195a55c197b9756651747effa00a990b8cad
+  size_bytes: 10051371
+  source_ref: gdrive:1mEsxOfwwzkCui9pGFa7DoR34N8u3Kmad
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:41:45'
+    start_time_local: '2025-10-21T13:41:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-42-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-42-45.mp4
+  sha256: 1a9f23440a219373386a0957e758be9e938479397fe2294bdec9757349270553
+  size_bytes: 9421090
+  source_ref: gdrive:1Pcwy99zvTVpQ5MsHbQMjJSKdSY2kG8gg
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:42:45'
+    start_time_local: '2025-10-21T13:42:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-43-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-43-45.mp4
+  sha256: ca48a2892a98022b55cc69da14dbc84b9d98d5100a0b838ccff285db152d1e10
+  size_bytes: 9285922
+  source_ref: gdrive:1U5cx5eYi3Faqw4bRMvIaHQQcnVgFQZF7
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:43:45'
+    start_time_local: '2025-10-21T13:43:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-44-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-44-45.mp4
+  sha256: d23cfda49ee7fc31ab7739df51fec37d2070c12ce468a2085782914ef434c20a
+  size_bytes: 10348014
+  source_ref: gdrive:1_-AvcR5Gy8yoCO5CZDWcm_MT2-odM5RA
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:44:45'
+    start_time_local: '2025-10-21T13:44:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-45-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-45-45.mp4
+  sha256: 3b05a31ee6f613cd3bccfdce6e73cc9b3076c8bdd8d8b7a360c490f40f440ba9
+  size_bytes: 10076724
+  source_ref: gdrive:1iJ5gOwBqXTa194640XocuNqw7X12u8rj
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:45:45'
+    start_time_local: '2025-10-21T13:45:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-46-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-46-45.mp4
+  sha256: 189bbb14f08825684a14748d65467a85b8481790c3414c94503fdeeb44709024
+  size_bytes: 9929746
+  source_ref: gdrive:1tvyL_cL18PviTi2gFxYKcqMTRk6vjGjh
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:46:45'
+    start_time_local: '2025-10-21T13:46:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-47-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-47-45.mp4
+  sha256: 84dde06716010644ee79df4ec8aba91f71b6f40d8f993ab849cc96bc27cb906b
+  size_bytes: 10087384
+  source_ref: gdrive:1giwAg0iCH8uw0U0T-7kmv5vIzWasGot6
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:47:45'
+    start_time_local: '2025-10-21T13:47:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-48-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-48-45.mp4
+  sha256: 38c665c28782c59522ec09b67a9a887460cb61a41b064690c2f842291420836c
+  size_bytes: 10741092
+  source_ref: gdrive:1Pm_9HNOjZge4EY7xIIAGeCM0Ssf5L_QW
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:48:45'
+    start_time_local: '2025-10-21T13:48:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-49-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-49-45.mp4
+  sha256: b8f376e079654a2fca992e857c2bd2b01e25c40973f79dd5abbe5f9aaa9bf9a8
+  size_bytes: 10119860
+  source_ref: gdrive:1GwlpENKoJmiUG4BEfcLqyr__Gj6Pq8iS
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:49:45'
+    start_time_local: '2025-10-21T13:49:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-50-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-50-45.mp4
+  sha256: 8c1987ed10c024179afa78f4d55cf028156f8aeb96c8c0002e34c3887ffebfd4
+  size_bytes: 9885319
+  source_ref: gdrive:1ofIDDP-bhnE_WWTt9bids-AI-shMNTd7
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:50:45'
+    start_time_local: '2025-10-21T13:50:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-51-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-51-45.mp4
+  sha256: 864e02d2270dc350bcdb0e053aa6cbf92458d60b08dbbed0a2f865222ef7164c
+  size_bytes: 10819744
+  source_ref: gdrive:1yVCbK3Q7x0wJ1GcmI7h0v6d9aSlEUcTK
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:51:45'
+    start_time_local: '2025-10-21T13:51:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-52-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-52-45.mp4
+  sha256: 17369db93183505705278ff82097cb88d65ada31057fe125b679a8b668e2f4a9
+  size_bytes: 10893526
+  source_ref: gdrive:1HNLGSqtFDYjDBVvVO6xc_JGASTYMCPwQ
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:52:45'
+    start_time_local: '2025-10-21T13:52:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-53-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-53-45.mp4
+  sha256: d28c2532285089db1fd1272799b3fff84c820e026a733c098c291c091401a8eb
+  size_bytes: 10637920
+  source_ref: gdrive:1XOh12H1kYHz4fzzKq8Md0iOYAKrf6ms_
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:53:45'
+    start_time_local: '2025-10-21T13:53:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-54-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-54-45.mp4
+  sha256: 972f4819bdc5ebcf4d7179f568a319f3ebb7cef288ec7cb86b9377c7c767e4e5
+  size_bytes: 11340052
+  source_ref: gdrive:1tGbgBQDsjuchm76mxX2j0RmZJn2W2Ra1
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:54:45'
+    start_time_local: '2025-10-21T13:54:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-55-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-55-45.mp4
+  sha256: ec37c9b98fd8e7c4adac409dc6f212e34c98152c761200e17b23143a03b7460a
+  size_bytes: 10684148
+  source_ref: gdrive:1JtGbk9UOM8n7x1ZPtzWHsGbjLxldcMZl
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:55:45'
+    start_time_local: '2025-10-21T13:55:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-56-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-56-45.mp4
+  sha256: 69855a7d1c7b285852a9a254d270ebc880c48ec7f2d884e084075c1107febe1c
+  size_bytes: 11000488
+  source_ref: gdrive:16gMq9o_vc6QXknjmdw7wUKr16bnkbLOR
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:56:45'
+    start_time_local: '2025-10-21T13:56:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-57-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-57-45.mp4
+  sha256: 53008f7fd37f2b7fda22d99d35713d387faf7e1c76bdc4ac512437ed3a527071
+  size_bytes: 11000225
+  source_ref: gdrive:1o1iQad1ovy-ThysqSOfkV7cOaiW6ZO_x
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:57:45'
+    start_time_local: '2025-10-21T13:57:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-58-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-58-45.mp4
+  sha256: f43df85c79d0bbecaf64eaa0714efc390d9563cf11325a3a6100aa2bc7430ca4
+  size_bytes: 10709814
+  source_ref: gdrive:1jAM2U6jEzmlvD-oKr9XuokT6KTC67aCP
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:58:45'
+    start_time_local: '2025-10-21T13:58:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-21-17-59-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-21-17-59-45.mp4
+  sha256: 3f947909dfdf7817b126b08516d751373d9031fbcd241eef1d926cb65d8c5a0e
+  size_bytes: 11127454
+  source_ref: gdrive:1Vgk1_UaOUykDPzyTHEhzaw7aGeq36a2n
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-21T17:59:45'
+    start_time_local: '2025-10-21T13:59:45'
+    local_offset_hours: -4.0
+    window: d21_local1337
+    condition_hint: midday
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-30-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-30-45.mp4
+  sha256: d01101a821700e2d227a7023f4551d7df06223028cdf63b126d7faafbfe1465b
+  size_bytes: 2548269
+  source_ref: gdrive:13_LVd4C9w-mKomj-iyeKE2BkAaRjVRix
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:30:45'
+    start_time_local: '2025-10-24T02:30:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-31-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-31-45.mp4
+  sha256: 1a4ecf44f5be9b4071ffb2f3b1c7f6eb3c1b221e0e93704929da0c6718a6fdf1
+  size_bytes: 2260494
+  source_ref: gdrive:1wPTTMERgJ6vfSUZsRBijFidCpJQqmccF
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:31:45'
+    start_time_local: '2025-10-24T02:31:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-32-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-32-45.mp4
+  sha256: bedbb9c0b2156270a9614701132fa79695a3bf3a104088210a6841eedc741a4a
+  size_bytes: 2385416
+  source_ref: gdrive:1N4Nl5QjO_4h6mSsQ_vSlAppuI9pyMcpl
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:32:45'
+    start_time_local: '2025-10-24T02:32:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-33-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-33-45.mp4
+  sha256: 8e98a672ca795af5657cf81ec131e937502b28f2bc6a0d268efb76d785afd4a0
+  size_bytes: 2356586
+  source_ref: gdrive:1Ty_RUmGkfwt0TioqtvkA5uxNR8gE0Ul0
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:33:45'
+    start_time_local: '2025-10-24T02:33:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-34-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-34-45.mp4
+  sha256: c8c1ebc1db360a522330d02449e920d026039f81022b7f4568bafaf024cfd35b
+  size_bytes: 2613118
+  source_ref: gdrive:1cuUrUmYri8XHN_Blx6rs0lXBPOZmgTQ_
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:34:45'
+    start_time_local: '2025-10-24T02:34:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-35-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-35-45.mp4
+  sha256: 4e0dbd60f8719e004745d4c3dde0040ef853292ae07e28fde0d72e43c8cb68ab
+  size_bytes: 2387828
+  source_ref: gdrive:1zeTQ0pU34ct298qFZb8UFixuhmqEXWTA
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:35:45'
+    start_time_local: '2025-10-24T02:35:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-36-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-36-45.mp4
+  sha256: 517977a75a713d4fa046a68478ce763cb3c439dc0b59ddcb238e164f3bab9f92
+  size_bytes: 2380218
+  source_ref: gdrive:1JpT1h5Kflo5phXzMM43z4JUEaCvwj5LB
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:36:45'
+    start_time_local: '2025-10-24T02:36:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-44-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-44-45.mp4
+  sha256: d7bb3a24a738fd7872d9cd6a6634f831ee72a346ec262e440c4adb15b83021f4
+  size_bytes: 2701744
+  source_ref: gdrive:1pmq41gJxtkxapQSydHGC31b6RaFeiL0I
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:44:45'
+    start_time_local: '2025-10-24T02:44:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-45-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-45-45.mp4
+  sha256: 5e0c7e76a7e86edbc787e0b63b6fd308107baa6c20e2277ec5cc94e91382f1c6
+  size_bytes: 3081757
+  source_ref: gdrive:1sK--NQud03cHIftgaotv_OORCCDCUXtV
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:45:45'
+    start_time_local: '2025-10-24T02:45:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-46-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-46-45.mp4
+  sha256: 1577df6283377e0df6376aa419ec28fd5c25e1a1f687249cfe7d1c0e57b94ea1
+  size_bytes: 2788986
+  source_ref: gdrive:127CqE7Ama5ZVQhvyICKXI4WSWXdsmdER
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:46:45'
+    start_time_local: '2025-10-24T02:46:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-47-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-47-45.mp4
+  sha256: 841b39baa438578a17cde49c4bb929893dd7893daca1934ded2cc7093f7566ca
+  size_bytes: 2924092
+  source_ref: gdrive:164VX70sZaFM8xD0-OSHOFKSan4fVOw8s
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:47:45'
+    start_time_local: '2025-10-24T02:47:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-48-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-48-45.mp4
+  sha256: 73c0a81bd3e36a51ddef9b025dc91a77bd884e917ab3a4bfaa8d35b45da6be36
+  size_bytes: 2377383
+  source_ref: gdrive:1igf751nr12QOph7Cj-eGUCq7KD8ukdCh
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:48:45'
+    start_time_local: '2025-10-24T02:48:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-49-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-49-45.mp4
+  sha256: 31bd11e77119eca02d408105061b49ff850afe96419d43e7ebd8338679f77dec
+  size_bytes: 2504435
+  source_ref: gdrive:1Koxq4HuBTiW6M_jDBVrwxHclAN6oHzWC
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:49:45'
+    start_time_local: '2025-10-24T02:49:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-50-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-50-45.mp4
+  sha256: 971fb6a6820111782bcb43abfcb06dd33258d7ac4cd6a8335cd2f63a0efd7886
+  size_bytes: 2291170
+  source_ref: gdrive:10jZiVZ6JPtPDlELTJFOIzWp1gYl1rRzk
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:50:45'
+    start_time_local: '2025-10-24T02:50:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-51-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-51-45.mp4
+  sha256: ceab33320e445235243ec2dbf79b716f13b92e122bbe5aa24be8c320c8825a5d
+  size_bytes: 2511515
+  source_ref: gdrive:1v4FJE1X463WkrmtQ2xzlrghbtQ5JCtnJ
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:51:45'
+    start_time_local: '2025-10-24T02:51:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
+    subset_version: v1
+  used_by:
+  - O2
+  - O4
+  - KPI-2
+- id: normanniles4_2025-10-24-06-52-45
+  file: raw/barbados_traffic/normanniles4/normanniles4_2025-10-24-06-52-45.mp4
+  sha256: 684986f00669017f04786a9636ccd33c790ad02866b413bbd51be105590c0806
+  size_bytes: 2277097
+  source_ref: gdrive:1O_q-qAeuS_ElXpFv1ALeHmgCYGp4Oo1V
+  partition: unassigned
+  attributes:
+    camera_id: normanniles4
+    start_time_filename: '2025-10-24T06:52:45'
+    start_time_local: '2025-10-24T02:52:45'
+    local_offset_hours: -4.0
+    window: d24_local0230
+    condition_hint: night
     subset_version: v1
   used_by:
   - O2

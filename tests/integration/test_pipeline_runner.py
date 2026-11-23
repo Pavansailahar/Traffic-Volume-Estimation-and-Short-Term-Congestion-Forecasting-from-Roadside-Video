@@ -54,3 +54,31 @@ def test_process_clips_writes_all_outputs(tmp_path) -> None:  # noqa: ANN001
     assert len(frames) == 60 and set(frames["reliability"]) <= {"ok", "degraded"}
     intervals = pd.read_csv(tmp_path / "intervals.csv")
     assert set(intervals["source"]) <= {"estimated"}
+
+
+@pytest.mark.skipif(not CLIPS or not WEIGHTS.is_file(), reason="needs a camera-1 clip and detector weights")
+def test_process_clips_downscales_frames_and_lines(tmp_path) -> None:  # noqa: ANN001
+    from src.detection.detector import UltralyticsDetector
+    from src.pipeline.runner import process_clips
+
+    config = load_config(PROJECT_ROOT / "configs" / "o2_a.yaml")
+    detector = UltralyticsDetector(config.detection, SETTINGS.models_root, device="cpu")
+    geometry = CameraGeometry.custom_line((960, 540), "horizontal", 0.45)
+    process_clips(
+        CLIPS[:1],
+        config,
+        detector,
+        tmp_path,
+        geometry=geometry,
+        camera_id="custom",
+        stride=4,
+        max_frames=20,
+        run_name="scaled",
+        max_width=480,
+    )
+    record = json.loads((tmp_path / "run.json").read_text(encoding="utf-8"))
+    res = record["results"]
+    assert res["processed_size"] == [480, 270] and res["processing_scale"] == 0.5
+    assert res["geometry"]["lines"][0]["p1"] == [9.6, 121.5]  # line scaled with the frames
+    dets = pd.read_csv(tmp_path / "detections.csv")
+    assert dets.empty or dets["x2"].max() <= 481

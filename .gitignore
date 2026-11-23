@@ -44,3 +44,6 @@ desktop.ini
 # User-supplied sample videos (unknown licence, large): keep local
 tests/Video/
 .claude/
+
+# Generated deployment bundles
+build/

@@ -37,6 +37,44 @@ class CameraGeometry:
     frame_size: tuple[int, int]
     lines: tuple[CountingLine, ...]
 
+    def scaled(self, factor: float) -> CameraGeometry:
+        """The same lines in a frame resized by `factor` (used when frames are downscaled for speed)."""
+        w, h = self.frame_size
+        return CameraGeometry(
+            self.camera_id,
+            (int(w * factor), int(h * factor)),
+            tuple(
+                CountingLine(
+                    ln.name,
+                    (ln.p1[0] * factor, ln.p1[1] * factor),
+                    (ln.p2[0] * factor, ln.p2[1] * factor),
+                    ln.positive,
+                    ln.negative,
+                )
+                for ln in self.lines
+            ),
+        )
+
+    @classmethod
+    def custom_line(
+        cls, frame_size: tuple[int, int], orientation: str, position: float, start: float = 0.02, end: float = 0.98
+    ) -> CameraGeometry:
+        """One line across the frame, placed by fractions (for uploaded videos without a camera config).
+
+        orientation 'horizontal': a line at height `position` (0 = top); directions 'up' / 'down'.
+        orientation 'vertical': a line at width `position` (0 = left); directions 'left' / 'right'.
+        """
+        if not 0.0 < position < 1.0 or not 0.0 <= start < end <= 1.0:
+            raise ValueError("position must be in (0, 1) and 0 <= start < end <= 1")
+        w, h = frame_size
+        if orientation == "horizontal":
+            line = CountingLine("line", (start * w, position * h), (end * w, position * h), "up", "down")
+        elif orientation == "vertical":
+            line = CountingLine("line", (position * w, start * h), (position * w, end * h), "right", "left")
+        else:
+            raise ValueError("orientation must be 'horizontal' or 'vertical'")
+        return cls("custom", (w, h), (line,))
+
     @classmethod
     def load(cls, path: str | Path) -> CameraGeometry:
         data = yaml.safe_load(Path(path).read_text(encoding="utf-8"))

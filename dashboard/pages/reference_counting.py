@@ -38,6 +38,9 @@ settings = Settings()
 CACHE = settings.data_root / "annotation_cache"
 MAX_PREVIEW_WIDTH = 1080
 
+if settings.hosted:
+    st.info("Reference counting runs in the local project, where the evidence clips are stored.")
+    st.stop()
 if not PLAN_PATH.is_file():
     st.error("No counting plan found. Run `python scripts/make_counting_plan.py` first.")
     st.stop()

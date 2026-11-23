@@ -190,7 +190,9 @@ def process_clips(
     progress: ProgressFn | None = None,
     run_name: str = "run",
     extra_inputs: list[dict] | None = None,
+    max_width: int | None = None,
 ) -> RunSummary:
+    """Process clips; `max_width` downscales frames (and the counting lines) once on entry, e.g. 4K -> 1280 px."""
     if not clips:
         raise ValueError("no clips given")
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -205,6 +207,11 @@ def process_clips(
     if any(abs(m.fps - fps) > 0.01 or (m.width, m.height) != (reports[0].width, reports[0].height) for m in reports):
         raise ValueError("clips differ in fps or resolution; process them separately")
     width, height = reports[0].width, reports[0].height
+    scale = min(1.0, max_width / width) if max_width else 1.0
+    if scale < 1.0:
+        width, height = int(width * scale) // 2 * 2, int(height * scale) // 2 * 2
+        if geometry is not None:
+            geometry = geometry.scaled(scale)
     total_frames = sum(m.frame_count for m in reports) // stride
     if max_frames:
         total_frames = min(total_frames, max_frames)
@@ -258,9 +265,14 @@ def process_clips(
                 global_index = offset_frames + frame.index
                 t_s = global_index / fps
                 t0 = time.perf_counter_ns()
-                dets = detector.detect([frame.image], [global_index])[0]
+                image = (
+                    cv2.resize(frame.image, (width, height), interpolation=cv2.INTER_AREA)
+                    if scale < 1.0
+                    else frame.image
+                )
+                dets = detector.detect([image], [global_index])[0]
                 t1 = time.perf_counter_ns()
-                condition = monitor.assess(frame.image, [d.bbox for d in dets])
+                condition = monitor.assess(image, [d.bbox for d in dets])
                 t2 = time.perf_counter_ns()
                 tracked = tracker.update(global_index, dets)
                 t3 = time.perf_counter_ns()
@@ -287,7 +299,7 @@ def process_clips(
                 cond_text = f"condition: {Counter(recent_labels).most_common(1)[0][0]}"
                 if writer is not None or t_s >= next_snapshot:
                     canvas = _draw_overlay(
-                        frame.image,
+                        image,
                         tracked,
                         tracker.histories,
                         geometry,
@@ -460,6 +472,8 @@ def process_clips(
                 for ln in geometry.lines
             ],
         },
+        "processing_scale": round(scale, 4),
+        "processed_size": [width, height],
         "validation_status": "NOT VALIDATED: no reference counts exist for these clips yet.",
     }
     with (out_dir / "frames.csv").open(encoding="utf-8") as fh:
