@@ -105,8 +105,17 @@ data/              manifests and tiny samples only (raw data under DSCI41_DATA_R
 reports/           committed experiment and acceptance reports
 ```
 
-## Licences
+## Licence
 
-Code licence: to be decided by the team. Ultralytics YOLO is AGPL-3.0, which constrains distribution (RISK R-09).
-The datasets have their own licences (CC BY-SA 4.0 for Barbados; research-only for UA-DETRAC and AI City). See
-DATASET_RESEARCH.md. Raw data is never committed.
+The source code in this repository is licensed under the **GNU Affero General Public License v3.0**
+(`AGPL-3.0-only`); see [LICENSE](LICENSE). AGPL-3.0 matches the licence of Ultralytics YOLO, which the detector and
+tracker use. If you run a modified version as a network service, you must offer its source code to that service's
+users.
+
+The licence covers this project's code and documentation only. It does **not** cover:
+
+- **Datasets**, which are never committed and keep their own terms: Barbados traffic video (Zindi states
+  CC BY-SA 4.0, but frames carry an IWCP "Re-Use/Re-Streaming Forbidden" notice: see RISK_REGISTER R-20), UA-DETRAC
+  and AI City (research and non-commercial use). See [DATASET_RESEARCH.md](DATASET_RESEARCH.md).
+- **Model weights**, which are downloaded from Ultralytics releases at runtime under Ultralytics' licence.
+- **`docs/UseCase.pdf`**, the KL University project specification, included for reference.

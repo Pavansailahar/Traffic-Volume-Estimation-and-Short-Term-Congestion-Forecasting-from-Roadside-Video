@@ -3,6 +3,8 @@ name = "dsci41-traffic-intelligence"
 version = "0.1.0"
 description = "DSCI-41: Traffic volume estimation and short-term congestion forecasting from roadside video"
 readme = "README.md"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
 requires-python = ">=3.11,<3.12"
 dependencies = [
     # Computer vision
