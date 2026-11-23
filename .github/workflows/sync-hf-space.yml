@@ -3,7 +3,7 @@
 # One-time setup (in this GitHub repository: Settings -> Secrets and variables -> Actions):
 #   - Secret   HF_TOKEN : a Hugging Face access token with WRITE permission
 #   - Variable HF_SPACE : the Space id, e.g. "your-hf-username/roadside-traffic-intelligence"
-# Until HF_SPACE is set, this workflow skips itself.
+# HF_SPACE may also be stored as a secret. If either setting is missing the run fails with an explanation.
 name: Sync Hugging Face Space
 
 on:
@@ -30,9 +30,28 @@ permissions:
 
 jobs:
   sync:
-    if: ${{ vars.HF_SPACE != '' }}
     runs-on: ubuntu-latest
+    env:
+      # HF_SPACE may be stored as a repository variable or as a secret; either works.
+      HF_SPACE: ${{ vars.HF_SPACE || secrets.HF_SPACE }}
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
     steps:
+      - name: Check deployment settings
+        run: |
+          missing=0
+          if [ -z "$HF_TOKEN" ]; then
+            echo "::error::Repository secret HF_TOKEN is not set (Settings > Secrets and variables > Actions > Secrets)."
+            missing=1
+          fi
+          if [ -z "$HF_SPACE" ]; then
+            echo "::error::HF_SPACE is not set. Add it as a repository variable (or secret) with the value <hf-username>/<space-name>."
+            missing=1
+          elif ! echo "$HF_SPACE" | grep -Eq '^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$'; then
+            echo "::error::HF_SPACE must look like <hf-username>/<space-name>, without https:// or 'spaces/'."
+            missing=1
+          fi
+          exit $missing
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -43,11 +62,7 @@ jobs:
         run: python scripts/build_hf_space.py --out bundle
 
       - name: Push bundle to the Space
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          HF_SPACE: ${{ vars.HF_SPACE }}
         run: |
-          if [ -z "$HF_TOKEN" ]; then echo "HF_TOKEN secret is not set"; exit 1; fi
           HF_USER="${HF_SPACE%%/*}"
           cd bundle
           git init -q -b main
