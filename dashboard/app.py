@@ -31,6 +31,7 @@ navigation = st.navigation(
         ],
         "Assurance": [
             st.Page(PAGES / "evaluation.py", title="Model Evaluation", icon=":material/fact_check:"),
+            st.Page(PAGES / "reference_counting.py", title="Reference Counting", icon=":material/edit_note:"),
             st.Page(PAGES / "monitoring.py", title="System Monitoring", icon=":material/monitor_heart:"),
         ],
     }

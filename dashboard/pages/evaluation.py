@@ -6,19 +6,32 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from dashboard.common import pill, setup, source_note
+from dashboard.common import kpi, pill, setup, source_note
 from src.common.config import Settings
+from src.evaluation.reference_counts import compare_with_pipeline, consolidate, load_plan, load_records, score
 from src.services.results import RunStore
 
 setup("Model Evaluation", "What has been measured, under which conditions, and what is still open.")
 settings = Settings()
+
+ref_records = load_records()
+ref_table, agreement = consolidate(ref_records)
+plan = load_plan()
+comparison = compare_with_pipeline(ref_table, plan, RunStore().root) if not ref_table.empty else pd.DataFrame()
+overall = score(comparison) if not comparison.empty else None
+if overall is not None:
+    counting_status = ("Development result", "info", f"{overall.clips} clip(s) with final hand counts.")
+elif ref_records:
+    counting_status = ("Counting in progress", "warn", "Hand counts exist but no clip has two agreeing counts yet.")
+else:
+    counting_status = ("Not measured", "bad", "No hand counts yet: open Reference Counting.")
 
 st.subheader("Acceptance status")
 rows = [
     ("O2 vs O3 comparison", "Not started", "warn", "O3 is built after O2 is frozen (Phase 9)."),
     ("Detection (P, R, mAP50, mAP50-95)", "Development run", "info", "UA-DETRAC subset, pretrained model, by weather."),
     ("Tracking (IDF1, MOTA, ID switches)", "Not measured", "warn", "Needs UA-DETRAC track evaluation (Phase 6)."),
-    ("Counting (MAE, RMSE, accuracy)", "Not measured", "bad", "No reference counts yet: hand counts planned."),
+    ("Counting (MAE, RMSE, accuracy)", *counting_status),
     (
         "Forecasting (MAE, RMSE by horizon)",
         "Baselines only",
@@ -32,6 +45,80 @@ for name, status, kind, note in rows:
     c1.write(f"**{name}**")
     c2.markdown(pill(status, kind), unsafe_allow_html=True)
     c3.caption(note)
+
+st.divider()
+st.subheader("Counting accuracy against hand counts")
+if not ref_records:
+    st.info(
+        f"No hand counts yet. The plan has {len(plan)} clips; each needs two independent counts in "
+        "**Reference Counting** (protocol: docs/COUNTING_PROTOCOL.md)."
+    )
+else:
+    a1, a2, a3, a4 = st.columns(4)
+    with a1:
+        kpi("Clips counted twice", f"{agreement.clips_double_counted if agreement else 0}", f"of {len(plan)} planned")
+    with a2:
+        kpi(
+            "Annotator agreement",
+            f"{agreement.exact_agreement:.0%}" if agreement else "—",
+            "cells with identical counts",
+        )
+    with a3:
+        kpi("Within ±1", f"{agreement.within_one:.0%}" if agreement else "—", "cells")
+    with a4:
+        kpi(
+            "ICC(2,1)",
+            f"{agreement.icc:.2f}" if agreement and agreement.icc == agreement.icc else "—",
+            "absolute agreement",
+        )
+    status_counts = ref_table["status"].value_counts().to_dict()
+    st.caption(
+        "Cell status: "
+        + ", ".join(f"{k} {v}" for k, v in status_counts.items())
+        + ". Only agreed or adjudicated cells are used for accuracy."
+    )
+    if overall is None:
+        st.warning("No cell has a final reference yet, so accuracy cannot be computed.")
+    else:
+        b1, b2, b3, b4 = st.columns(4)
+        lo, hi = overall.accuracy_ci95
+        with b1:
+            kpi("Counting accuracy", f"{overall.accuracy:.1%}", f"95% CI {lo:.1%} – {hi:.1%} (clip bootstrap)")
+        with b2:
+            kpi("WAPE", f"{overall.wape:.1%}", "Σ|estimate − reference| / Σ reference")
+        with b3:
+            kpi("MAE per cell", f"{overall.mae:.2f}", f"RMSE {overall.rmse:.2f}")
+        with b4:
+            kpi("Vehicles", f"{overall.estimate_total} / {overall.reference_total}", "estimated / reference")
+        st.caption("Accuracy = 1 − WAPE is the proposed KPI-1 definition (REQUIREMENTS §4), not yet frozen.")
+        breakdown = []
+        for (dim, key), g in [(("condition", c), g) for c, g in comparison.groupby("condition")] + [
+            (("class", c), g) for c, g in comparison.groupby("vehicle_class")
+        ]:
+            s = score(g, n_boot=500)
+            if s is not None:
+                breakdown.append(
+                    {
+                        "by": dim,
+                        "group": key,
+                        "clips": s.clips,
+                        "reference": s.reference_total,
+                        "estimate": s.estimate_total,
+                        "accuracy": round(s.accuracy, 3),
+                        "ci95 low": round(s.accuracy_ci95[0], 3),
+                        "ci95 high": round(s.accuracy_ci95[1], 3),
+                        "MAE": round(s.mae, 2),
+                    }
+                )
+        if breakdown:
+            st.dataframe(pd.DataFrame(breakdown), hide_index=True, width="stretch")
+            st.caption(
+                "Condition-wise and class-wise results are listed separately so an aggregate cannot hide a "
+                "failing condition or a rare class (NFR-4, NT-4)."
+            )
+        with st.expander("Cell-level comparison"):
+            st.dataframe(comparison, hide_index=True, width="stretch")
+    source_note("data/annotations/reference_counts/ (human) vs pipeline events.csv attributed to clips")
 
 st.divider()
 st.subheader("Detection on UA-DETRAC, by condition")

@@ -72,6 +72,11 @@ Open the operator dashboard (http://localhost:8501):
 & "$HOME\dsci41env\Scripts\python.exe" -m streamlit run dashboardpp.py
 ```
 
+Hand-count reference (two people per clip, blind to model output): open the dashboard's **Reference Counting**
+page, enter your annotator ID and role, and count the clips in `data/annotations/reference_counts/plan_v1.csv`
+following [docs/COUNTING_PROTOCOL.md](docs/COUNTING_PROTOCOL.md). Accuracy appears on **Model Evaluation** once a clip
+has two agreeing (or adjudicated) counts. Commit the saved JSON files: they are reference evidence.
+
 Docker (clean-environment test run, CPU):
 
 ```powershell
