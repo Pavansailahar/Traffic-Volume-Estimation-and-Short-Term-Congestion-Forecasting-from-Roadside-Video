@@ -329,6 +329,32 @@ items:
   - NT-1
   - NT-2
   - NT-4
+- id: MVI_41063
+  file: raw/ua_detrac/images/MVI_41063
+  sha256: 52004208a5d1fa3b19794fc90537199154a3f184cb5aa4e2a97d6ccdcfb417c2
+  size_bytes: 85526784
+  source_ref: gdrive:1fQC6CEWOeL9pnJ4ZdD7U2gromcnWDRgm#DETRAC-Images/MVI_41063/
+  partition: unassigned
+  attributes:
+    split_original: train
+    weather: sunny
+    camera_state: stable
+    site_proxy: MVI_4106
+    frames_annotated: 1505
+    frames_images: 1505
+    tracks: 167
+    mean_density: 6.68
+    occluded_fraction: 0.282
+    subset_version: v1
+  used_by:
+  - O2
+  - O3
+  - KPI-1
+  - KPI-4
+  - KPI-5
+  - NT-1
+  - NT-2
+  - NT-4
 - id: MVI_63553
   file: raw/ua_detrac/images/MVI_63553
   sha256: 4ff8533df51ce19109639c0d5cd6dd68f6cce0f6fc35b308ccd1cd8e8da066e7
