@@ -69,6 +69,32 @@ items:
   - NT-1
   - NT-2
   - NT-4
+- id: MVI_39051
+  file: raw/ua_detrac/images/MVI_39051
+  sha256: 57db5af116a757b288701cad505966cf985306b02c4d792cac2807677a1b363c
+  size_bytes: 148673333
+  source_ref: gdrive:1fQC6CEWOeL9pnJ4ZdD7U2gromcnWDRgm#DETRAC-Images/MVI_39051/
+  partition: unassigned
+  attributes:
+    split_original: test
+    weather: sunny
+    camera_state: stable
+    site_proxy: MVI_3905
+    frames_annotated: 1051
+    frames_images: 1120
+    tracks: 30
+    mean_density: 2.32
+    occluded_fraction: 0.054
+    subset_version: v1
+  used_by:
+  - O2
+  - O3
+  - KPI-1
+  - KPI-4
+  - KPI-5
+  - NT-1
+  - NT-2
+  - NT-4
 - id: MVI_39311
   file: raw/ua_detrac/images/MVI_39311
   sha256: 04b1576671900f2ec33a7f24ebc0d4ac53284faf158bb8e2e221a8196f633978

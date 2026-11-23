@@ -21,6 +21,12 @@ harness that checks it against reference counts across occlusion, rain and night
 | O4 | Integrated system: forecast near-term congestion from estimated volumes |
 | O5 | Independent acceptance across conditions (AC-1…AC-4, NT-1…NT-5, KPI-1…KPI-6) |
 
+## Showcase site
+
+`site/` is a static results page (no build step) that shows aggregate figures from the pipeline runs. It contains no
+video frames. Refresh its data with `python scripts/export_showcase_data.py`, then commit. To host it on Vercel,
+import this repository at vercel.com/new and set **Root Directory** to `site` (framework preset: Other).
+
 ## Planning documents
 
 [PROJECT_ANALYSIS](PROJECT_ANALYSIS.md) · [REQUIREMENTS](REQUIREMENTS.md) · [DATASET_RESEARCH](DATASET_RESEARCH.md) ·
